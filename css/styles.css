@@ -622,6 +622,10 @@ a {
   color: var(--white-color);
 }
 
+.join-container {
+  margin-right: 93px;
+}
+
 .connect-text {
   font-style: normal;
   font-weight: 700;
@@ -648,7 +652,6 @@ a {
 }
 
 .connect-icon {
-  margin-left: 10px;
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -677,8 +680,18 @@ a {
 
 .footer-mail-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-mail-field {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
 .footer-mail-input {
@@ -688,6 +701,7 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 20px;
+  margin-right: 12px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.25;
@@ -712,10 +726,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 12px;
   width: 200px;
   height: 50px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
