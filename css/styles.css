@@ -572,6 +572,12 @@ a {
 
 /*------------------footer------------------*/
 
+.footer-hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-hero-footer-color);
+}
+
 .footer-container {
   align-items: baseline;
   display: flex;
@@ -580,12 +586,6 @@ a {
 .address-container {
   flex-grow: 1;
   margin-right: 70px;
-}
-
-.footer-hero {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--background-hero-footer-color);
 }
 
 .footer-logo {
@@ -652,8 +652,7 @@ a {
   margin-right: 10px;
 }
 
-.btn-mail-icon {
-  margin-left: 10px;
+.connect-icon {
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -747,6 +746,12 @@ a {
 .btn-mail-form:focus {
   color: var(--white-color);
   background-color: var(--focus-hover-color);
+}
+
+.btn-mail-icon {
+  margin-left: 10px;
+  fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
