@@ -584,7 +584,6 @@ a {
 }
 
 .address-container {
-  flex-grow: 1;
   margin-right: 70px;
 }
 
@@ -681,7 +680,6 @@ a {
 
 .footer-mail-form {
   display: flex;
-  align-items: flex-end;
 }
 
 .footer-mail-field {
