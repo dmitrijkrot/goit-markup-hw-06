@@ -678,19 +678,23 @@ a {
   background-color: var(--accent-color);
 }
 
-.footer-mail-form {
-  display: flex;
-}
-
-.footer-mail-field {
-  display: flex;
-  flex-direction: column;
+.footer-mail-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
+}
+
+.footer-mail-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-mail-field {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-mail-input {
